@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "questcraft",
+  "version": "${mod_version}",
+  "name": "QuestCraft",
+  "description": "A Minecraft mod for QuestCraft that allows players to remove clothing items using high-value items like diamonds, emeralds, and gold, while displaying parts of the female human anatomy similar to the Jenny mod for Meta Quest 3.",
+  "authors": ["EnderDevelopment"],
+  "contact": {
+    "homepage": "https://enderdevelopment.com",
+    "sources": "https://github.com/EnderDevelopment/QuestCraft"
+  },
+  "license": "MIT",
+  "icon": "assets/questcraft/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.enderdevelopment.questcraft.QuestCraftMod"
+    ]
+  },
+  "mixins": [
+    "questcraft.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.20.1",
+    "fabric-api": "*"
+  }
+}
